@@ -15,7 +15,7 @@ type LibraryManager interface{
 }
 
 
-//Library struct to hold books and members 
+//Library struct to hold books and member
 type Library struct {
 	Books map[int] *Models.Book			//(bookid: title, author, status)
 	Members  map[int] *Models.Member		//(memberid: name, borrowedbooks)
